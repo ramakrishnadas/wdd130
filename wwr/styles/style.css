@@ -1,15 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Merriweather&family=Roboto:wght@300&display=swap');
+
 body {
     background-color: #e1e4e1;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #6787a6;
 }
 
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 .book, .join {
     background-color: #e1e4e1;
     color: #285071;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -19,6 +37,9 @@ header {
 
 .home-title {
     color:#285071;
+    font-family: 'Gloria Hallelujah', Merriweather, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -29,21 +50,36 @@ h4 {
     background-color: #6787a6;
 }
 
+.card-img {
+    border: 10px solid #285071;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 .msg {
     background-color: #6787a6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #e1e4e1;
+    font-family: 'Gloria Hallelujah', Merriweather, serif;
 }
 
 .msg p {
     color: #e1e4e1;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #6787a6;
     color: #e1e4e1;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -63,6 +99,10 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -72,6 +112,11 @@ nav a {
     text-align: center;
     color: #e1e4e1;
     text-decoration: none;
+    padding: 35px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 nav a:hover {
@@ -101,6 +146,7 @@ main section {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
