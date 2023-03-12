@@ -377,6 +377,7 @@ margin-left: 0.5em;
     margin-top: 3em;
 }
 
+
 /* Responsive rules */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
