@@ -1,3 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Serif&display=swap');
+
+/* CSS rules for Home Page*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',  Helvetica, sans-serif;;
+}
+
+header {
+    background-color: #0c2b43;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+#logo-link {
+    align-self: center;
+    justify-self: center;
+    display: table;
+    text-decoration: none;
+}
+
+.logo {
+    width: 70px;
+    margin: 0px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+#logo-link h1 {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: #0c2b43;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: white;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: #2a98ed;
+    background-color: white;
+}
+
+#banner {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.main-p-container {
+    background-color: #2a98ed;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.main-p-container p {
+    color: white;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+section h3 {
+    text-align: center;
+    color: #0c2b43;
+    margin: 50px;
+    font-size: 3em;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.benefits {
+    text-align: center;
+    background-color: #2a98ed;
+    color: white;
+    border-radius: 12px;
+    width: 80%;
+    padding: 30px;
+    justify-self: center;
+}
+
+ul li {
+    margin: 30px;
+    line-height: 1.4em;
+}
+
+#home-grid img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    justify-self: center;
+    border: 1px solid #0c2b43;
+    border-radius: 12px;
+}
+
+#home-grid > p {
+    align-self: center;
+    justify-self: center;
+    font-size: 2em;
+    color: #0c2b43;
+}
+
+.button-box {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    color: #0c2b43;
+    line-height: 1.5em;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 5px 30px;
+    border-radius: 8px;
+    background-color: #0c2b43;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #2a98ed;
+    color: white;
+}
+
+footer {
+    background-color: #0c2b43;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover {
+    color: #2a98ed;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+footer .social img {
+    margin: 15px;
+    border-radius: 8px;
+}
+
+
+
+
+/* CSS rules for Page 3 */
 ol {
     counter-reset: list;
 }
