@@ -177,7 +177,71 @@ footer .social img {
 }
 
 
+/* CSS rules for FAQ page */
 
+#logo-link-faq {
+    align-self: center;
+    justify-self: center;
+    display: table;
+    text-decoration: none;
+}
+
+#logo-link-faq h1 {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+main h1 {
+    text-align: center;
+    color: #0c2b43;
+    font-size: 3em;
+    margin: 40px;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+#faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 150px;
+    margin: 0px 10px 150px 10px;
+    grid-gap: 20px;
+}
+
+.q-and-a {
+    text-align: center;
+    background-color: #2a98ed;
+    color: white;
+    border-radius: 12px;
+    width: 80%;
+    height: 60%;
+    padding: 40px;
+    justify-self: center;
+    align-self: center;
+    display: table;
+}
+
+.q-and-a p {
+    font-size: 1.2em;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5em;
+}
+
+.q-and-a span {
+    font-size: 1.3em;
+    font-weight: bolder;
+    line-height: 3em;
+}
+
+#faq-grid img {
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+    border-radius: 12px;
+}
 
 /* CSS rules for Page 3 */
 ol {
