@@ -243,14 +243,104 @@ main h1 {
     border-radius: 12px;
 }
 
-/* CSS rules for Page 3 */
+/* CSS rules for Course Details page */
+
+#logo-link-course {
+    align-self: center;
+    justify-self: center;
+    display: table;
+    text-decoration: none;
+}
+
+#logo-link-course h1 {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+#banner2 {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+    margin-bottom: 70px;
+}
+
+main h4 {
+    color: #0c2b43;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#schedules-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 80px auto;
+
+}
+
+#first {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+}
+
+#second {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+}
+
+#third {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+}
+
+#schedules-grid img {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    border: 1px solid #0c2b43;
+    border-radius: 12px;
+}
+
+.schedules {
+    text-align: center;
+    background-color: #2a98ed;
+    color: white;
+    border-radius: 12px;
+    width: 60%;
+    padding: 2px;
+}
+
+.schedules h5 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
 ol {
     counter-reset: list;
+    text-align: center;
+    padding-inline-start: 0;
 }
 ol > li {
     list-style: none;
+    margin: 5px;
+    
 }
 ol > li:before {
     content: counter(list, lower-alpha) ") ";
     counter-increment: list;
+}
+
+#contact-info {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 100px;
 }
